@@ -1,3 +1,5 @@
+from pprint import pprint
+
 class SaleManager:
     def __init__(self):
         self.sales = []
@@ -6,5 +8,5 @@ class SaleManager:
         self.sales.append(new_sale.__dict__)
 
     def show_sales(self):
-        print(self.sales)
+        pprint(self.sales)
         
